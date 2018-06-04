@@ -95,11 +95,11 @@ public interface RpAccountTransactionService {
 
     /**
      * 更新账户历史中的结算状态，并且累加可结算金额
-     * @param accountNo
+     * @param userNo
      * @param collectDate
      * @param riskDay
      * @param totalAmount
      * @throws BizException
      */
-    void settCollectSuccess(String accountNo, String collectDate, int riskDay, BigDecimal totalAmount) throws BizException;
+    void settCollectSuccess(String userNo, String collectDate, int riskDay, BigDecimal totalAmount) throws BizException;
 }

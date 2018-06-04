@@ -3,6 +3,7 @@ package com.csx.pay.account.dao.impl;
 import com.csx.pay.account.dao.RpSettRecordDao;
 import com.csx.pay.account.entity.RpSettRecord;
 import com.csx.pay.common.core.dao.impl.BaseDaoImpl;
+import org.springframework.stereotype.Repository;
 
 /**
  * @author csx
@@ -10,5 +11,6 @@ import com.csx.pay.common.core.dao.impl.BaseDaoImpl;
  * @Description: 结算记录dao实现类
  * @date 2018/5/31 0031
  */
+@Repository
 public class RpSettRecordDaoImpl extends BaseDaoImpl<RpSettRecord> implements RpSettRecordDao {
 }

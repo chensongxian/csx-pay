@@ -3,6 +3,7 @@ package com.csx.pay.account.dao.impl;
 import com.csx.pay.account.dao.RpSettDailyCollectDao;
 import com.csx.pay.account.entity.RpSettDailyCollect;
 import com.csx.pay.common.core.dao.impl.BaseDaoImpl;
+import org.springframework.stereotype.Repository;
 
 /**
  * @author csx
@@ -10,5 +11,6 @@ import com.csx.pay.common.core.dao.impl.BaseDaoImpl;
  * @Description: 每日待结算汇总dao实现类
  * @date 2018/5/31 0031
  */
+@Repository
 public class RpSettDailyCollectDaoImpl extends BaseDaoImpl<RpSettDailyCollect> implements RpSettDailyCollectDao {
 }
